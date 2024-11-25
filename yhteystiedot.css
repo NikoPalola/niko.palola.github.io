@@ -1,0 +1,63 @@
+/* Perustyylit */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+/* Navigointi ja otsikointi */
+header {
+    background-color: #333;
+    color: goldenrod;
+    padding: 1rem 0;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+}
+/* Pääsisältö */
+main {
+    padding: 2rem;
+    color: goldenrod;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Piilota lista pienillä näytöillä */
+    }
+
+    .hamburger {
+        display: block; /* Näytä mobiilinavigaation painike */
+    }
+}

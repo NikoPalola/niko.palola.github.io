@@ -1,0 +1,102 @@
+/* Perustyylit */
+body {
+    font-family: Arial, sans-serif;
+    color: goldenrod;
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+/* navigointi ja otsikointi */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+h1 {
+    color: goldenrod;
+}
+h2, h3 {
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+}
+
+/* Videontausta */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    height: 60vh;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+/* videon asettelu */
+.content {
+    position: relative;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(187, 187, 187, 0.568);
+    border-radius: 8px;
+}
+
+p, ul {
+    margin-bottom: 1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color:  goldenrod;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .content {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}

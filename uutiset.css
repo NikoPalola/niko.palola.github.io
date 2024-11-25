@@ -1,0 +1,97 @@
+/* Perustyylit */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* navigointi ja otsikointi*/
+header {
+    background-color: #333;
+    color: goldenrod;
+    padding: 1rem 0;
+    text-align: center;
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: white;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+}
+/* Pääsisältö */
+main {
+    padding: 2rem;
+    color: goldenrod;
+}
+
+/* Uutisosiot */
+.news {
+    background-color: #333;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 4rem 0;
+}
+
+/* Linkkien muotoilu */
+.external-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+.external-links li {
+    margin: 0.5rem 0;
+}
+
+.external-links a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.external-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Piilota lista pienillä näytöillä */
+    }
+
+    .hamburger {
+        display: block; /* Näytä mobiilinavigaation painike */
+    }
+}

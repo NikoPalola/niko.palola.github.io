@@ -92,14 +92,4 @@ figcaption {
     nav ul {
         flex-direction: column;
     }
-    main {
-        padding: 1rem;
-    }
-    .service-section {
-        padding: 1rem;
-        margin: 2rem 0;
-    }
-    img {
-        max-width: 100%;
-    }
 }

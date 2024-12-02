@@ -63,19 +63,14 @@ footer {
     width: 100%;
 }
 
+/* Responsiivisuus */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
     }
-    main {
+    
+    .content {
+        margin: 1rem;
         padding: 1rem;
     }
-    .service-section {
-        padding: 1rem;
-        margin: 2rem 0;
-    }
-    img {
-        max-width: 100%;
-    }
-}
 }

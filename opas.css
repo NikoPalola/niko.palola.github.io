@@ -90,10 +90,16 @@ figcaption {
 }
 @media (max-width: 768px) {
     nav ul {
-        display: none; /* Piilota lista pienillä näytöillä */
+        flex-direction: column;
     }
-
-    .hamburger {
-        display: block; /* Näytä mobiilinavigaation painike */
+    main {
+        padding: 1rem;
+    }
+    .service-section {
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    img {
+        max-width: 100%;
     }
 }

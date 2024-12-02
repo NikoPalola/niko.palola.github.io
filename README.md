@@ -7,7 +7,7 @@
      <!--title ja iconi-->
     <title>AutoSivusto - Etusivu</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/xicon" href="../Kuvat/favicon.ico">
+    <link rel="icon" type="image/xicon" href="favicon.ico">
 </head>
 <!--Näkyvä osio alkaa-->
 <body>
@@ -29,7 +29,7 @@
         <section class="video-container">
             <!-- Taustavideo -->
             <video autoplay muted loop>
-                <source src="../Kuvat/auto-häivytys.mp4" type="video/mp4">
+                <source src="auto-häivytys.mp4" type="video/mp4">
             </video>
             
             <!-- Sivun pääsisältö -->

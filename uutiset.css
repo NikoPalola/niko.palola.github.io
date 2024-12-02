@@ -91,4 +91,9 @@ footer {
     nav ul {
         flex-direction: column;
     }
+    
+    .content {
+        margin: 1rem;
+        padding: 1rem;
+    }
 

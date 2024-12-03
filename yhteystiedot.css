@@ -54,10 +54,5 @@ footer {
 }
 @media (max-width: 768px) {
     nav ul {
-        display: none; /* Piilota lista pienillä näytöillä */
-    }
-
-    .hamburger {
-        display: block; /* Näytä mobiilinavigaation painike */
-    }
+       flex-direction: column;
 }

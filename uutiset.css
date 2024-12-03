@@ -10,7 +10,7 @@ body {
 header {
     background-color: #333;
     color: goldenrod;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
 }
 h2 {

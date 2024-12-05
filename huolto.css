@@ -48,7 +48,7 @@ main {
     border: 3px solid goldenrod;
     border-radius: 5px;
     padding: 1.5rem;
-    margin: 1rem 0;
+    margin: 4rem 0;
 }
 
 
@@ -57,11 +57,12 @@ footer {
     background-color: black;
     color: goldenrod;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+/* mobiili */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;

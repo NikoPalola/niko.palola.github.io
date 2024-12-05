@@ -5,6 +5,7 @@ body {
     background-color:#333;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 
@@ -22,7 +23,7 @@ h2, h3 {
     color: white;
 }
 nav ul {
-   list-style: none;
+    list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -37,14 +38,7 @@ nav a {
 nav ul li a:hover {
     color: goldenrod;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-}
 
-nav ul li a:hover {
-    color: goldenrod;
-}
 /* Videontausta */
 .video-container {
     position: relative;
@@ -84,14 +78,17 @@ footer {
     background-color: black;
     color:  goldenrod;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+/* mobiili */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
+        
     }
+
 }
